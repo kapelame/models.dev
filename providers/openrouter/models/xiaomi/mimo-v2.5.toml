@@ -8,6 +8,8 @@ type = "toggle"
 field = "reasoning_details"
 
 [cost]
-input = 0.14
+input = 0.105
 output = 0.28
-cache_read = 0.0028
+
+[limit]
+context = 32_000
